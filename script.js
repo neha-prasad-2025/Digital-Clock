@@ -47,6 +47,7 @@ function addDarkTheme() {
   middleSpan.forEach((el) => {
     el.classList.add("dark");
   });
+  amPm.classList.add("dark");
 }
 function removeDarkTheme() {
   container.classList.remove("dark");
@@ -59,6 +60,7 @@ function removeDarkTheme() {
   middleSpan.forEach((el) => {
     el.classList.remove("dark");
   });
+  amPm.classList.add("dark");
 }
 
 let savedTheme = localStorage.getItem("theme");
